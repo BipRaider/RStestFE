@@ -56,8 +56,8 @@ const App: React.FC<any> = () => {
         </Switch>
 
         <Footer>
-          <a href="http://localhost:3000/">Git BeckEnd</a>
-          <a href="http://localhost:3000/">Git FrondEnd</a>
+          <a href="https://github.com/BipRaider/RStestBE-">Git BeckEnd</a>
+          <a href="https://github.com/BipRaider/RStestFE">Git FrondEnd</a>
         </Footer>
       </Wrapper>
     </Router>

@@ -8,7 +8,7 @@ export const Li = styled.li`
   align-items: flex-start;
   margin: 0 auto;
   width: 100%;
-  height: 100%;
+  height: auto;
   ::after {
     content: '';
     width: 200px;

@@ -6,12 +6,13 @@ export const Ul = styled.ul`
   position: relative;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 
   overflow-y: auto;
   overflow-x: hidden;
+
   width: 100%;
-  height: 65vh;
+  height: 60vh;
 
   @media ${(screen.s, deviceMax.tablet)} {
   }

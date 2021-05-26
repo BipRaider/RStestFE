@@ -32,8 +32,3 @@ export const deviceMax = {
   desktopL: `(max-width: ${size.desktop})`,
 };
 export const screen = { s: `(screen and)` };
-
-// @media ${(screen.s, deviceMin.mobileL, deviceMax.mobileL)} {
-//   width: 300px;
-// }
-// import { deviceMin, deviceMax, screen } from '../../../css/styledMedia';
