@@ -8,7 +8,7 @@ import TextareaForm from './TextareaForm';
 
 import { Form } from './MessageFormStyle';
 
-const rg = new RegExp('^[a-zA-Z0-9._:$!%-]{2,20}$');
+const rg = new RegExp('^[а-яА-Яa-zA-Z0-9._-]{2,20}$');
 
 const MessageForm: React.FC<IMassageFormProps> = ({ onAddMessage }) => {
   const [name, setName] = useState<string>('');

@@ -3,12 +3,15 @@ import { deviceMin, deviceMax, screen } from '../../css/styledMedia';
 
 export const Ul = styled.ul`
   display: flex;
+  position: relative;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 
+  overflow-y: auto;
+  overflow-x: hidden;
   width: 100%;
-  height: 100%;
+  height: 65vh;
 
   @media ${(screen.s, deviceMax.tablet)} {
   }

@@ -15,6 +15,7 @@ const LabelForm: React.FC<ITextareaFormProps> = ({ text, value, name, onInputsHa
         required
         value={value}
         onChange={e => onInputsHandler(e)}
+        rows={2}
       />
     </Lable>
   );

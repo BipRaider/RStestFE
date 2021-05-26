@@ -3,6 +3,7 @@ import { deviceMin, deviceMax, screen } from '../../css/styledMedia';
 
 export const Form = styled.form`
   display: flex;
+  bottom: 0;
   flex-direction: column;
   justify-content: center;
   align-items: stretch;

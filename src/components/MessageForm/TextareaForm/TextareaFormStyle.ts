@@ -8,7 +8,7 @@ export const Textarea = styled.textarea`
   align-items: stretch;
 
   width: 500px;
-  height: 100%;
+  min-height: 30px;
 
   padding: 0 10px 10px 10px;
   margin-left: 10px;
