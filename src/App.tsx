@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import api from './services';
 
@@ -25,7 +25,7 @@ const App: React.FC<any> = () => {
     }
   };
 
-  const getMessage = async (): Promise<any> => {
+  const getMessage = useCallback(async (): Promise<any> => {
     try {
       const messages: TMessage[] | [] = await api.get('/message');
 
@@ -33,12 +33,12 @@ const App: React.FC<any> = () => {
     } catch (error) {
       alert(error);
     }
-  };
+  }, [setMessages]);
 
   useEffect(() => {
     getMessage();
     return () => {};
-  }, []);
+  }, [getMessage]);
 
   return (
     <Router>
