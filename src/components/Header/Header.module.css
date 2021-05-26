@@ -1,0 +1,12 @@
+.header {
+  background-color: var(--secondary-background-color);
+  height: 70px;
+}
+
+.title {
+  padding-top: 25px;
+  font-weight: 900;
+  font-size: 30px;
+  color: var(--secondary-font-color);
+  text-align: center;
+}
