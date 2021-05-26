@@ -69,6 +69,7 @@ const MessageForm: React.FC<IMassageFormProps> = ({ onAddMessage }) => {
       <TextareaForm
         value={message}
         onInputsHandler={inputsHandler}
+        onSubmitHandler={submitHandler}
         name={'message'}
         text={'Message:'}
       />

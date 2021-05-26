@@ -44,4 +44,5 @@ export interface ITextareaFormProps {
   value: string;
   name: string;
   onInputsHandler(e: any): void;
+  onSubmitHandler(e: any): void;
 }
