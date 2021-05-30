@@ -16,7 +16,8 @@ const GlobalStyle = createGlobalStyle`
 	body {
 		margin: 0;
 		padding: 0;
-		background: #252831;
+		background: #ffffff;
+
 		color: #fbfbef;
 	}
 	ul::-webkit-scrollbar {
